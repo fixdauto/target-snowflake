@@ -24,7 +24,7 @@ setup(
         'singer-target-postgres @ git+https://git@github.com/fixdauto/target-postgres@precision#egg=singer-target-postgres',
         'target-redshift==0.2.4',
         'botocore<1.13.0,>=1.12.253',
-        'snowflake-connector-python==2.2.5'
+        'snowflake-connector-python~=2.7.9'
     ],
     setup_requires=[
         "pytest-runner"
